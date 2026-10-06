@@ -3,7 +3,7 @@ import "./styles.css";
 import React, { useState, useEffect } from "react";
 
 // REPLACE THIS WITH YOUR GOOGLE APPS SCRIPT WEB APP URL
-const API_URL = "https://script.google.com/macros/s/YOUR_EXEC_ID_HERE/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycby1mukVWBGeZiK5L-fhtmEEKlUkQOIQRAIaw3orR8sVaAz9HNa0m0JmDWQbObmyCKfx8g/exec";
 
 export default function App() {
   const [data, setData] = useState({ activeMode: "", tasks: [] });
